@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="empty_image_width">150dp</dimen>
+    <dimen name="empty_image_height">150dp</dimen>
+    <dimen name="margin_bottom_subtitle">10dp</dimen>
+    <dimen name="header_padding">15dp</dimen>
+    <dimen name="progress_size">25dp</dimen>
+    <dimen name="button_fab_size">25dp</dimen>
+    <dimen name="button_fab_margin">10dp</dimen>
+</resources>
