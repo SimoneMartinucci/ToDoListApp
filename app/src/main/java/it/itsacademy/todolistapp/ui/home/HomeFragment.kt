@@ -1,4 +1,4 @@
-package it.itsacademy.todolistapp.ui
+package it.itsacademy.todolistapp.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.core.view.isVisible
 import it.itsacademy.todolistapp.R
 import it.itsacademy.todolistapp.core.viewmodel.HomeViewModel
 import it.itsacademy.todolistapp.databinding.FragmentHomeBinding
-import org.koin.android.ext.android.inject
+import it.itsacademy.todolistapp.ui.home.adapter.HomeAdapter
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class HomeFragment : Fragment() {
@@ -27,7 +27,7 @@ class HomeFragment : Fragment() {
 
             if(list.isNotEmpty()){
                 binding.taskRecyclerview.apply {
-
+                    adapter = HomeAdapter(list)
                 }
             }
         }
@@ -54,6 +54,8 @@ class HomeFragment : Fragment() {
                 resources.getString(R.string.home_empty_subtitle1)
             emptyLayout.subtitle2Textview.text =
                 resources.getString(R.string.home_empty_subtitle2)
+
+            headerTitleTextview.text = resources.getString(R.string.home_header_title)
 
             buttonFab.setOnClickListener {
                 homeViewModel.insertTask()

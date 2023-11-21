@@ -7,4 +7,6 @@
     <dimen name="progress_size">25dp</dimen>
     <dimen name="button_fab_size">25dp</dimen>
     <dimen name="button_fab_margin">10dp</dimen>
+    <dimen name="checkbox_size">15dp</dimen>
+    <dimen name="checkbox_margin">5dp</dimen>
 </resources>

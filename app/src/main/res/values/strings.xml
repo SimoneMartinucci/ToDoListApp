@@ -8,6 +8,9 @@
 
 
     //Home
+    <string name="home_header_title">Cosa ti Aspetta Oggi?</string>
     <string name="home_empty_subtitle1">Sembra che per oggi tu non abbia nulla in programma.</string>
     <string name="home_empty_subtitle2">Goditi La Giornata!</string>
+    <string name="priority_label">Priorità: %s</string>
+    <string name="end_date_label">Scadenza: %s</string>
 </resources>

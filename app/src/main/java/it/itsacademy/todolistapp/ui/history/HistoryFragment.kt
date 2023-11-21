@@ -1,4 +1,4 @@
-package it.itsacademy.todolistapp.ui
+package it.itsacademy.todolistapp.ui.history
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

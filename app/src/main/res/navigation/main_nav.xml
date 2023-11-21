@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="it.itsacademy.todolistapp.ui.HomeFragment"
+        android:name="it.itsacademy.todolistapp.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home"/>
     <fragment
         android:id="@+id/historyFragment"
-        android:name="it.itsacademy.todolistapp.ui.HistoryFragment"
+        android:name="it.itsacademy.todolistapp.ui.history.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
     <fragment
         android:id="@+id/tasksFragment"
-        android:name="it.itsacademy.todolistapp.ui.TasksFragment"
+        android:name="it.itsacademy.todolistapp.ui.task.TasksFragment"
         android:label="fragment_tasks"
         tools:layout="@layout/fragment_tasks" />
 </navigation>
